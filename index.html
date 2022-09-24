@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio 1">
+    <meta name="author" content="Alexis Jose Marcano">
+    <link rel="shortcut icon" a href="./favicon/favicon.ico.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" a href="./css/estilos.css">
+    <title>PreEntrega2/AlexisJoseMarcano</title>
+  
+</head>
+<body>
+  <!--mantuve el logo en el medio, me gusto como se veia en esa posicion. Use la ayuda de boostrap para darle mayor diseño y transicionar la barra de navegacion-->
+    <div class="container">
+        <header class="header">
+            <section class="logo">
+                <img src="./imagenes/logo-removebg-preview.png" alt="logo" width="100px">
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="id" class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/nosotros.html">NOSOTROS</a>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/servicios.html">SERVICIOS</a>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/noticias.html">NOTICIAS</a>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">CONTACTO</a>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Mas informacion" aria-label="search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <h1 class="titulo">ALBA SALUD</h1>
+        </header>
+    </div>
+    <br>
+    <br>
+    <div class="container titulo_contacto">
+      <div class="card bg-dark text-dark">
+          <img src="./imagenes/imagen5.jpg" class="card-img" width="500px" height="500px" alt="...">
+          <div class="card-img-overlay">
+            <h3 class="card-title">SERVICIO MEDICO</h3>
+            <p class="card-text">TU SALUD EN BUENAS MANOS</p>
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <main class="enunciado1">
+                    <section>
+                        <h3 class="subtitulo">ALBA SALUD</h3>
+                        <P>Comprometidos a la atencion de calidad, en cualquier parte de la ciudad, a cualquier persona sin importar raza, sexo y edad. 
+                            Todo aquel paciente que presente sintomas de alguna enfermedad o lesiones que puedan ser leves o severas, prontamente estatremos 
+                        a su merced para suplir cada necesidad y solventar la probelmatica de salud.</P>
+                    </section>
+                </main>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="carrusel">
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            
+                        
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                        </div>
+                        
+                        <!-- Use la opcion del carrousel de boostrap, hice modificaciones en las imagenes, use flexbox para posicionar mejor la imagen y box modeling para corregir tamaño -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imagenes/carrusel1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/carrusel2.jpg" alt="Chicago" class="d-block" style="width:100%">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/carrusel3.jpg" alt="New York" class="d-block" style="width:100%">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imagenes/carrusel4.webp" alt="New York" class="d-block" style="width:90%">
+                          </div>
+                        </div>
+                        
+                        <!-- Aqui con ayuda de boostrap me ofree la animacion de la imagen en corrousel -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container enunciado2">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <section>
+              <h2 class="subtitulo2">EQUIPO ALBA SALUD</h2>
+            </section>
+          </div>
+          <br>
+          <br>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <img src="./imagenes/fondo.jpg" class="img-thumbnail" alt="imagenu">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <article class="texto3">
+                <p>Profesionales en conjunto a desarrollar habilidades a fin de explorar conocimientos y aplicarlos durante la practica medica, basados en la innovacion y mejoras. 
+                  Ademas, es un equipo multidisciplinario dispuesto a analizar, diagnosticar y tratar al paciente de manera integral, tomando en cuenta su contexto. </p>
+              </article>
+          </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--En los iconos se me hizo bastante posicionarlos de manera bien justficada y trate de poner el texto debajo de la imagen pero no logre hacerlo-->
+    <div class="container enunciado3">
+        <h2 class="subtitulo2">SERVICIOS</h2>
+        <br>
+        <br>
+        <div class="row">
+            <section class="iconos">
+                <img src="./imagenes/icono1.png" width="50">
+                <p>Emergencia</p>
+                <img src="./imagenes/icono2.png" width="50">
+                <p>Radiologia</p>
+                <img src="./imagenes/icono3.png" width="50">
+                <p>Laboratorio</p>
+                <img src="./imagenes/icono4.png" width="50">
+                <p>Rehabilitacion</p>
+                <img src="./imagenes/icono5.png" width="50">
+                <p>Consulta medica</p>
+            </section>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <section class="iconos">
+                <img src="./imagenes/icono6.png" width="50">
+                <p>Cirugia</p>
+                <img src="./imagenes/icono7.png" width="50">
+                <p>Control prenatal</p>
+                <img src="./imagenes/icono8.png" width="50">
+                <p>Suministros</p>
+                <img src="./imagenes/icono9.png" width="100">
+                <p>Farmacia</p>
+                <img src="./imagenes/icono10.png" width="100">
+                <p>Hospitalizacion</p>
+            </section>   
+       
+        </div>       
+         
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--Aqui utilice el formato de boostrap, modifique imagenes, ajuste con flexbox -->
+    <div class="container enunciado4">
+      <main>
+        <h2 class="subtitulo2">NOTICIAS</h2>
+    </main>
+    <br>
+    <br>
+    <div class="container cards d-flex justify-content-center aligh-items-center text-aligh-center">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-2">
+                <div class="card">
+                    <img src="./imagenes/imagen1.webp" class="card-img-top" alt="card1">
+                    <div class="card-body">
+                      <p class="card-text">Primera vez en la historia, transplante de corazon con criogenizado de cerdo en hummanos.</p>
+                      <a href="https://www.redaccionmedica.com/secciones/tecnologia/primera-intervencion-quirurgica-del-hm-san-francisco-con-tecnologias-o-arm-5526" target="_blank" alt="mas informacion">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-2">
+                <div class="card">
+                    <img src="./imagenes/imagen2.webp" class="card-img-top" alt="card2">
+                    <div class="card-body">
+                      <p class="card-text">Descubren origen de infecciones en pacientes que ingresaban a cirugia electiva en hospiital.</p>
+                      <a href="https://www.redaccionmedica.com/secciones/tecnologia/medtronic-eleva-a-referencia-en-neurocirugia-al-hospital-hm-san-francisco-2839" target="_blank" alt="mas informacion">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-2">
+                <div class="card">
+                    <img src="./imagenes/imagen3.jpg" class="card-img-top" alt="card3">
+                    <div class="card-body">
+                      <p class="card-text">Compran nuevos equipos de imagenologia en seguro social para mejora de codicones.</p>
+                      <a href="https://www.redaccionmedica.com/secciones/tecnologia/la-tecnologia-la-llave-para-acabar-con-las-listas-de-espera-9875" target="_blank" alt="mas informacion">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-2">
+                <div class="card">
+                  <img src="./imagenes/imagen7.webp" class="card-img-top" alt="card3">
+                  <div class="card-body">
+                    <p class="card-text">Analisis situacional en relacion a mejoras del estado en cuestion a la emergencia sanitaria.</p>
+                    <a href="https://www.redaccionmedica.com/secciones/tecnologia/la-tecnologia-la-llave-para-acabar-con-las-listas-de-espera-9875" target="_blank" alt="mas informacion">Ver mas</a>
+                  </div>
+               </div>
+            </div>
+            
+        </div>
+     </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <footer class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="subtitulo3">UBICANOS</h3>
+                <p class="direccion">Calle Latinoamerica c/28</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2469339248723!2d-67.37576272069687!3d9.913380477274158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2aa9e4a62a6e19%3A0x72a5b59ebd1b4b13!2sGuardia%20Nacional%20destacamento%2028%2C%20San%20Juan%20de%20Los%20Morros%202301%2C%20Gu%C3%A1rico%2C%20Venezuela!5e0!3m2!1ses-419!2sar!4v1661732043075!5m2!1ses-419!2sar" width="100%" height="50%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="subtitulo3">CONTACTANOS</h3>
+                <form action>
+                    <div>
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comentar"></textarea>
+                    </div>
+                    <div class="formulario">
+                        <fieldset>
+                            <legend>Quiero mas informacion</legend>
+                            <label for="seleccion">Si</label>
+                                <input id="selector" name="un_legend" type="radio" value="Si" checked>
+                            <label for="seleccion">No</label>
+                                <input id="selector" name="un_legend" type="radio" value="No" checked>
+                            
+                        </fieldset> 
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">  
+            <setcion class="derechos">
+                <h4>Derechos Reservados/Alexis Jose Marcano</h4>
+            </setcion>
+            <section class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </section>
+        </div>
+            
+    </footer>
+    <!--a pesar del poco tiempo disponible que tengo, puse mucho esfuerzo para diseñar esto, 
+      trabaje en solo 2 paginas como lo indicaban, el resto de las paginas estan en blanco, solo use el INDEX y NOSOTROS.
+    por otro lado, con respecto al media screen, fue muy complicado el controlar el tamaño de texto cuando visualizaba
+  en mobile o tablet, cuando lograba que se adaptara, al volver a pantalla grande se desorganizaba todo tanto posicion, tamaño y letras.-->
+</body>
+</html>
