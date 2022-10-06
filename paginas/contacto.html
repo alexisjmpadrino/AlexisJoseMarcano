@@ -16,8 +16,8 @@
   
 </head>
 <body>
-    <div>
-        <header class="container ">
+    <div class="container">
+        <header class="header ">
             <section class="logo">
                 <img src="../imagenes/logo-removebg-preview.png" alt="logo" width="100px">
             </section>
@@ -46,57 +46,109 @@
                   </div>
                 </div>
               </nav>
-            <h1 class="titulo">ALBA SALUD</h1>
+            <h1 class="titulo"></h1>
         </header>
     </div>
-
-    <footer>
-        <div class="footer">
-            <section class="texto1">
-                <h3 class="subtitulo3">UBICANOS</h3>
-                <p class="direccion">Calle Latinoamerica c/28</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2469339248723!2d-67.37576272069687!3d9.913380477274158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2aa9e4a62a6e19%3A0x72a5b59ebd1b4b13!2sGuardia%20Nacional%20destacamento%2028%2C%20San%20Juan%20de%20Los%20Morros%202301%2C%20Gu%C3%A1rico%2C%20Venezuela!5e0!3m2!1ses-419!2sar!4v1661732043075!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <br>
-            </section>
-            <section class="texto2">
-                <h3 class="subtitulo3">CONTACTANOS</h3>
-                <form action>
-                    <div>
-                        <input type="text" placeholder="Nombre" required>
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Email" required>
-                    </div>
-                    <div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Comentar"></textarea>
-                    </div>
-                    <div class="formulario">
+    <br>
+    <div class="container">
+        <div class="titulo_contacto">
+            <div class="card bg-dark text-dark">
+                <img src="../imagenes/imagen5.jpg" class="card-img" width="500px" height="500px" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">CONTACTANOS</h3>
+                  <p class="card-text1">SERVICIO LAS 24 HORAS</p>
+                </div>
+              </div>
+        </div>
+        <br>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container d-flex">
+        <div class="col-lg-6 col-md-12">
+            <img src="../imagenes/contactanos.png" height="400">
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <main>
+                <h3 class="subtitulo3">SU OPINION ES IMPORTANTE</h3>
+                <p>Deje su comentario o consulta en el buzon de mensajes</p>
+            </main>
+            <form action>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y Apellido" required>
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"></label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo electronico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentario" required></textarea>
+                </div>
+                    <div class="mb-3 form-check">
                         <fieldset>
                             <legend>Quiero mas informacion</legend>
                             <label for="seleccion">Si</label>
                                 <input id="selector" name="un_legend" type="radio" value="Si" checked>
                             <label for="seleccion">No</label>
                                 <input id="selector" name="un_legend" type="radio" value="No" checked>
-                            
                         </fieldset> 
+                        <div id="emailHelp" class="form-text">Esta informacion esta resguardada en nuestra base de datos.</div>
                     </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                    
-                </form>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                
+              </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="subtitulo3">UBICANOS</h3>
+                <p class="direccion">Calle Latinoamerica c/28</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2469339248723!2d-67.37576272069687!3d9.913380477274158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2aa9e4a62a6e19%3A0x72a5b59ebd1b4b13!2sGuardia%20Nacional%20destacamento%2028%2C%20San%20Juan%20de%20Los%20Morros%202301%2C%20Gu%C3%A1rico%2C%20Venezuela!5e0!3m2!1ses-419!2sar!4v1661732043075!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="subtitulo3">NUMERO DE CONTACTO</h3>
+                <ul class="numero">
+                    <li>
+                        +54 11 9 28993501
+                    </li>
+                    <br>
+                    <li>
+                        +54 11 9 28991833
+                    </li>
+                    <br>
+                    <li>
+                        +54 11 9 28781833
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row mb-4">  
+            <setcion class="derechos">
+                <h4>Derechos Reservados/Alexis Jose Marcano</h4>
+            </setcion>
+            <section class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
             </section>
         </div>
-        
-            <br>
-            
-        <setcion class="derechos">
-            <h4>Derechos Reservados/Alexis Jose Marcano</h4>
-        </setcion>
-        <section class="icon">
-            <ion-icon name="logo-instagram"></ion-icon>
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-whatsapp"></ion-icon>
-        </section>
             
     </footer>
+ 
+</body>
+</html>
