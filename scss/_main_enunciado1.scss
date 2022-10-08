@@ -1,0 +1,15 @@
+.container{
+    .container_enunciado1{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        justify-content: center;     
+        align-items: center;
+    }
+    .subtitulo{
+        font-size: $fuentemediana;  
+    }
+    .text {
+        text-align: justify;
+      }
+}

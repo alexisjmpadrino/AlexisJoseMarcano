@@ -1,0 +1,50 @@
+
+
+.subtitulo2{
+    @include color-alineacion;
+
+}
+.container_nosotros{
+    .texto_nosotros1{
+        font-size: $fuentebasica;
+        text-align: justify;
+        @include margenes; 
+        padding-top: 1%;
+    }
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.texto2{
+    @extend.texto1;
+        
+}
+.container{
+    .texto_contacto{
+        font-size: $fuentechica;
+        text-align: justify;
+        @include margenes;
+        padding-top: 8%;
+     }
+    }
+.enlace{
+        padding-top: 200%;
+    }
+
+.imagen{
+        padding-top: 1%;
+    }
+    
+.container2{
+        @include margenes;
+        background-color: $color-fondo;
+    }
+
+.container_contacto{
+    @include margenes;
+    }

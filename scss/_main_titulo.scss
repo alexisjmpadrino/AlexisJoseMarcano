@@ -1,0 +1,32 @@
+.titulo_contacto{
+    .card-img{
+        height: 500px;
+    }
+
+    .card-title{
+        padding-top: 20%;
+        font-size: $fuentegrande;
+        text-align: center;
+        text-decoration:double;
+        font-weight:bold;
+        @include fondo-texto-color;
+        
+    }
+
+    .card-text1{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-decoration: solid;
+        @include fondo-texto-color;     
+    }
+
+    @media screen and (max-width: 768px){
+        .card-title{
+            font-size: $fuentechica;
+        }
+        .card-img{
+            height: 300px;
+        }
+    }
+}

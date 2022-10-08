@@ -1,0 +1,27 @@
+.container{
+    justify-content: space-evenly;
+    align-items: center;
+    .footer{
+        display:flex;
+    }
+    .mapa{
+        justify-content: center;
+    
+    }
+    .subtitulo2{
+        @include color-alineacion;
+        
+        
+    }
+    .derechos{
+        background-color: $color-sobretexto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .numero{
+        padding-top: 10%;
+    }
+}

@@ -1,19 +1,19 @@
-@mixin miMixin2($valor,$borde-principal,$color:rgb(243, 86, 112)){     
-    height:$valor;
-    background-color: aqua;
-    border:$borde-principal;
-    color:$color;
+@mixin fondo-texto-color {     
+    background-color: #05193760;
+    color: rgb(255, 255, 255); 
 }
 
-@mixin flex-direction-center($direction){
-    display:flex;
-    flex-direction:$direction;
-    justify-content:center;
+@mixin color-alineacion {
+    background-color: rgba(5, 131, 131, 0.527);
+    text-align:center;
 }
 
-@mixin contenedor_grid($bgcolor,$justify,$aling){
-    background-color:$bgcolor;
-    display: grid;
-    justify-content: $justify;
-    align-items: $aling;
+@mixin texto-alineacion-items {
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+@mixin margenes {
+    margin-left: 5%;
+    margin-right: 5%;
 }

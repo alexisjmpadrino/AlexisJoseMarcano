@@ -12,11 +12,6 @@ $fuentemediana: 3rem;
 $fuentechica:2rem;
 $fuentebasica: 1.5rem;
 
-$bordes:(
-    borde-solid-principal :  1px solid black,
-    borde-solid-dospx:  2px solid black,
-    borde-solid-trespx:  3px solid black,
-);
 
 $flex : flex;
 $center:center;
@@ -27,7 +22,7 @@ $column:column;
 $space-evenly:space-evenly;
 $text-align: center;
 
-$map-flex:(
+$flex:(
     flex: flex,
     row: row,
     column: column,
@@ -36,3 +31,11 @@ $map-flex:(
     space-evenly: space-evenly,
     center: center,
 );
+$bordes:(
+    borde-principal : solid 
+);
+
+$colores:(
+    color1:#beb7b7a9,
+    color2: rgb(0, 0, 0),
+)
