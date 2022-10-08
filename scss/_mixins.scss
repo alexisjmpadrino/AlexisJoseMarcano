@@ -1,0 +1,19 @@
+@mixin miMixin2($valor,$borde-principal,$color:rgb(243, 86, 112)){     
+    height:$valor;
+    background-color: aqua;
+    border:$borde-principal;
+    color:$color;
+}
+
+@mixin flex-direction-center($direction){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:center;
+}
+
+@mixin contenedor_grid($bgcolor,$justify,$aling){
+    background-color:$bgcolor;
+    display: grid;
+    justify-content: $justify;
+    align-items: $aling;
+}

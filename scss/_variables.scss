@@ -11,3 +11,28 @@ $fuentegrande: 4rem;
 $fuentemediana: 3rem;
 $fuentechica:2rem;
 $fuentebasica: 1.5rem;
+
+$bordes:(
+    borde-solid-principal :  1px solid black,
+    borde-solid-dospx:  2px solid black,
+    borde-solid-trespx:  3px solid black,
+);
+
+$flex : flex;
+$center:center;
+$row: row;
+$space-around :space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$text-align: center;
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+);

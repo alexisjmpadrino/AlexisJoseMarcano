@@ -1,4 +1,8 @@
- @import "variables";
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "bucles";
+@import "main";
  
 *{
     margin: 0%;
@@ -22,7 +26,8 @@ body{
     width: 100%;
     .logo{
         display: flex;
-        justify-content:center;   
+        justify-content:center;
+         
     }
     .titulo{
         background-color: $color-fondotexto;
@@ -108,7 +113,7 @@ body{
 
     @media screen and (max-width: 768px){
         .card-title{
-            font-size: $fuentemediana;
+            font-size: $fuentechica;
         }
         .card-img{
             height: 300px;
@@ -310,6 +315,11 @@ body{
         margin-left: 5%;
         margin-right: 5%;
         background-color: $color-fondo;
+    }
+
+.container_contacto{
+    margin-left: 5%;
+    margin-right: 5%;
     }
 
 @media (min-width: 1200px) {
