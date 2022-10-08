@@ -1,20 +1,27 @@
 .header{
     background-image: url(https://i.pinimg.com/564x/b6/16/cd/b616cd6dbccd0bab456d1feea6d9122b.jpg);
     width: 100%;
+
     .logo{
         display: flex;
-        justify-content:center;
+        position: absolute;
+        padding-top: 4%;
+
+    .logo1{
+        display: flex;
+        justify-content: center;
+
+    }
          
     }
     .titulo{
-        
         font-size: 7rem;
         font-weight: lighter;
         font-family: fantasy;
         @include fondo-texto-color;
         &:hover{
             font-weight: bold; 
-            background-color: #beca78a8;
+            background-color: #cad398a8;
             color: rgba(39, 35, 35, 0.822);
         }
     }

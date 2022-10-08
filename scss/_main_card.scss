@@ -12,9 +12,16 @@
 .card{
     .card-body1{
         @include texto-alineacion-items;
+        padding-top: 10%;
     }
     .card-title1{
-        @include texto-alineacion-items; 
+        @include texto-alineacion-items;  
+    }
+    .card-text2{
+        @include texto-alineacion-items;  
+        padding-top: 5%;
+        background-color: rgba(128, 128, 128, 0.404);
+        
     }
 }
 

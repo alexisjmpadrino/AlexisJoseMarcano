@@ -11,6 +11,11 @@
 }
 .header .logo {
   display: flex;
+  position: absolute;
+  padding-top: 4%;
+}
+.header .logo .logo1 {
+  display: flex;
   justify-content: center;
 }
 .header .titulo {
@@ -22,7 +27,7 @@
 }
 .header .titulo:hover {
   font-weight: bold;
-  background-color: rgba(190, 202, 120, 0.6588235294);
+  background-color: rgba(202, 211, 152, 0.6588235294);
   color: rgba(39, 35, 35, 0.822);
 }
 .header .enunciado {
@@ -175,11 +180,19 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 10%;
 }
 .card .card-title1 {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.card .card-text2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  background-color: rgba(128, 128, 128, 0.404);
 }
 
 .card .card-title5 {
@@ -229,9 +242,17 @@
 .container_nosotros .texto_nosotros1 {
   font-size: 1.5rem;
   text-align: justify;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 1%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.container_nosotros .imagen_nosotros {
+  margin-right: 8%;
+}
+.container_nosotros .subtitulo3 {
+  background-color: rgba(5, 131, 131, 0.527);
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .texto1, .texto2 {

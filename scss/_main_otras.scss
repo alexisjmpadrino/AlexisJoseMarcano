@@ -8,9 +8,17 @@
     .texto_nosotros1{
         font-size: $fuentebasica;
         text-align: justify;
-        @include margenes; 
-        padding-top: 1%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
+    .imagen_nosotros{
+        margin-right: 8%;
+    }
+.subtitulo3{
+    @include color-alineacion;
+    margin-left: 8%;
+    margin-right: 8%;
+}
 }
 
 .texto1{
