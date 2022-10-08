@@ -65,11 +65,16 @@
     </div>
     <br>
     <br>
-    <div class="row container_contacto d-flex">
-        <div class="col-lg-6 col-md-9 col-sm-12">
-            <img src="../imagenes/contactanos.png" width="300" height="500" alt="logo contacto">
+    <!--Esta ha sido la pagina mas engorrosa con respecto a responsive, aqui ajuste un formulario y una imagen,
+    que en un principio me fluia bien sin embargo, al terminar todo se me desorganizo y no encontre el error
+  a que me refiero, cuando achico la pantalla version mobile, antes me aparecia la imagen encima del formulario
+ahora no, se me ajusto con las dos achicadas una a lado de la otra, utilice el "row" y me colocaba en columna 
+luego cambie a flex y me colocaba una al lado de la otra pero al achicar no me hizo la modificacion-->
+    <div class="container_contacto d-flex">
+        <div class="imagen_contacto row col-lg-6 col-md-12 col-sm-12">
+            <img src="../imagenes/contactanos.png" width="400" height="500" alt="logo contacto">
         </div>
-        <div class="col-lg-6 col-md-9 col-sm-12">
+        <div class="formulario_contacto col-lg-6 col-md-12 col-sm-12">
             <main>
                 <h3 class="subtitulo2">SU OPINION ES IMPORTANTE</h3>
                 <p>Deje su comentario o consulta en el buzon de mensajes</p>
@@ -77,18 +82,18 @@
             <form action>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label"></label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y Apellido" required>
+                  <input type="email" class="form-control" id="exampleInputEmail1" cols="5" rows="4" aria-describedby="emailHelp" placeholder="Nombre y Apellido" required>
                   
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"></label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo electronico" required>
+                  <input type="password" class="form-control" id="exampleInputPassword1"cols="5" rows="2¿4" placeholder="Correo electronico" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label"></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentario" required></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"cols="5" rows="4" placeholder="Comentario" required></textarea>
                 </div>
-                    <div class="mb-3 form-check">
+                    <div class="mb-2 form-check">
                         <fieldset>
                             <legend>Quiero mas informacion</legend>
                             <label for="seleccion">Si</label>
@@ -97,13 +102,11 @@
                                 <input id="selector" name="un_legend" type="radio" value="No" checked>
                         </fieldset> 
                         <div id="emailHelp" class="form-text">Esta informacion esta resguardada en nuestra base de datos.</div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
-                
-              </form>
-        </div>
-    </div>
+                     <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+     </div>
+    
     <br>
     <br>
     <br>

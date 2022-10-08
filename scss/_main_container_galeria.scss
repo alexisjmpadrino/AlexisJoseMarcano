@@ -1,0 +1,33 @@
+.container_galeria{
+    .galeria_titulo{
+        @include margenes;
+    }
+    .linea{
+        background-color: rgb(217, 219, 202);
+        display: block;
+    }
+    .galeria{
+        @include margenes;
+        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 5%;
+        grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+        width: 95%;
+        grid-gap: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 6px rgb(0, 0, 0, .5);
+        
+    }
+
+    .imagen{
+        vertical-align: top;
+        object-fit: cover;
+        position: relative;
+        transition: transform 0.5s;
+        &:hover{
+            filter: blur(0.5px);
+            transform: scale(1.3);
+        }
+    }
+ }

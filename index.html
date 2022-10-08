@@ -20,7 +20,10 @@
   
 </head>
 <body>
-  <!--mantuve el logo en el medio, me gusto como se veia en esa posicion. Use la ayuda de boostrap para darle mayor diseño y transicionar la barra de navegacion-->
+  <!--Inicie con el titulo y la barra de navegacion que con responsive cae al menu hamburguesa, 
+  utilice una pequeña animacion en el titulo y el logo lo mantuve con position absolute 
+estuve un poco confundido en algunas cosas ya que quice mantener el logo en esa posicion sin embargo
+al mover la pagina se mantiene fijo.-->
     <div class="container">
         <header class="header">
             <section class="logo">
@@ -51,6 +54,7 @@
                   </div>
                 </div>
               </nav>
+              <!--Aplique un display flex y coloque un carrousel con ayuda de bootstrap cambiando imagenes y posicion.-->
             <h1 class="titulo">ALBA SALUD</h1>
         </header>
     </div>
@@ -95,7 +99,7 @@
                           <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
                         </div>
                         
-                        <!-- Use la opcion del carrousel de boostrap, hice modificaciones en las imagenes, use flexbox para posicionar mejor la imagen y box modeling para corregir tamaño -->
+                        <!-- Aqui el carousel antes mencionado, tiene imagenes relacionadas -->
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="./imagenes/carrusel1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
@@ -154,7 +158,8 @@
     <br>
     <br>
     <br>
-    <!--En los iconos se me hizo bastante posicionarlos de manera bien justficada y trate de poner el texto debajo de la imagen pero no logre hacerlo-->
+    <!--En los iconos se me hizo bastante posicionarlos de manera bien justficada y trate de poner el texto debajo de la imagen pero no logre hacerlo
+    ademas en cada pasalabra que identifica la imagen, al pasar el cursor cambia de color y abre un link a una pag en target bank-->
     <div class="container_enunciado3">
       <main>
         <h2 class="subtitulo2">SERVICIOS</h2>
@@ -208,7 +213,7 @@
     <br>
     <br>
     <br>
-    <!--Aqui utilice el formato de boostrap, modifique imagenes, ajuste con flexbox -->
+    <!--Aqui utilice el formato de boostrap, modifique imagenes, ajuste con flexbox y asocie el link de cada fuete de informacion -->
     <div class="container_enunciado4">
       <main>
         <h2 class="subtitulo2">NOTICIAS</h2>
@@ -262,7 +267,60 @@
     <br>
     <br>
     <br>
-    
+    <!--aqui asocie la galeria de imagenes con un poco de animacion y al cliquear abre la imagen en otra ventana,
+    trate de aplicar el target dentro del scss, utilizando position fixed + transformacion y transicion, pero al 
+  no agarrarme la etiqueta target en scss no me funciono la animacion-->
+    <div class="container_galeria">
+      <main>
+        <h2 class="subtitulo2 galeria_titulo">GALERIA</h2>
+     </main>
+     <div >
+        <span class="linea"></span>
+        <section class="galeria">
+          <a href="./imagenes/galeria1.jpg" target="_blank">
+          <img src="./imagenes/galeria1.jpg" width="300" height="300" class="imagen"  alt="imagen1">
+        </a>
+          <a href="./imagenes/galeria2.jpg"target="_blank" >
+          <img src="./imagenes/galeria2.jpg" width="300" height="300" class="imagen" alt="imagen2">
+        </a>
+          <a href="./imagenes/galeria3.jpg"target="_blank">
+          <img src="./imagenes/galeria3.jpg" width="300" height="300" class="imagen"  alt="imagen3">
+        </a>
+          <a href="./imagenes/galeria4.jpg"target="_blank">
+          <img src="./imagenes/galeria4.jpg" width="300" height="300" class="imagen"  alt="imagen4">
+        </a>
+          <a href="./imagenes/galeria5.jpg"target="_blank">
+          <img src="./imagenes/galeria5.jpg" width="300" height="300"  class="imagen"  alt="imagen5">
+        </a>
+          <a href="./imagenes/galeria6.jpg"target="_blank">
+          <img src="./imagenes/galeria6.jpg" width="300" height="300" class="imagen"  alt="imagen6">
+        </a>
+          <a href="./imagenes/galeria7.webp"target="_blank">
+          <img src="./imagenes/galeria7.webp"width="300" height="300" class="imagen"  alt="imagen7">
+        </a>
+          <a href="./imagenes/galeria8.jpg"target="_blank">
+          <img src="./imagenes/galeria8.jpg"width="300" height="300" class="imagen"  alt="imagen8">
+        </a>
+          <a href="./imagenes/galeria9.jpg"target="_blank">
+          <img src="./imagenes/galeria9.jpg"width="300" height="300" class="imagen"  alt="imagen9">
+        </a>
+          <a href="./imagenes/galeria10.jpg"target="_blank">
+          <img src="./imagenes/galeria10.jpg"width="300" height="300" class="imagen"  alt="imagen10">
+        </a>
+          <a href="./imagenes/galeria11.jpeg"target="_blank">
+          <img src="./imagenes/galeria11.jpeg"width="300"height="300" class="imagen"  alt="imagen11">
+          </a>
+          <a href="./imagenes/galeria12.jpg" target="_blank">
+          <img src="./imagenes/galeria12.jpg"width="300" height="300" class="imagen" alt="imagen12">
+          </a>
+        </section>
+      
+      <br>
+      <br>
+      <br>
+          
+        <!-- aqui mantuve misma estructura con flex de ubicacion y formulario, y por ultimo asocie un 
+        pie de pagina sencillo con redes sociales que al cliquear redirigen a la web-->
     <footer class="container">
         <div class="row">
             <div class="mapa col-lg-6 col-md-12 col-sm-12">
@@ -303,19 +361,19 @@
       <br>
       <br>
       <div class="row">  
-          <setcion class="derechos">
-              <h4>Derechos Reservados/Alexis Jose Marcano</h4>
-          </setcion>
-          <section class="icon">
-            <a title="pagina instagram" href="https://www.instagram.com/alexjpadrino/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a title="pagina facebook" href="https://www.facebook.com/padrinoalex/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a title="pagina whatsapp" href="./paginas/link.html" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-          </section>
-      </div>
+        <setcion class="derechos">
+            <h4>Derechos Reservados/Alexis Jose Marcano</h4>
+        </setcion>
+        <section class="icon">
+          <a title="pagina instagram" href="https://www.instagram.com/alexjpadrino/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a title="pagina facebook" href="https://www.facebook.com/padrinoalex/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a title="pagina whatsapp" href="../paginas/link.html" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        </section>
+    </div>
             
     </footer>
     <!--a pesar del poco tiempo disponible que tengo, puse mucho esfuerzo para diseñar esto, 
-      trabaje en solo 2 paginas como lo indicaban, el resto de las paginas estan en blanco, solo use el INDEX y NOSOTROS.
+      trabaje en 5 paginas mas algunas extras como lo indicaban, el resto, hay unas extras que coloque el 404 error.
     por otro lado, con respecto al media screen, fue muy complicado el controlar el tamaño de texto cuando visualizaba
   en mobile o tablet, cuando lograba que se adaptara, al volver a pantalla grande se desorganizaba todo tanto posicion, tamaño y letras.-->
 </body>

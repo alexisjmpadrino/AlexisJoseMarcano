@@ -38,6 +38,7 @@
         text-align: justify;
         @include margenes;
         padding-top: 8%;
+
      }
     }
 .enlace{
@@ -55,4 +56,11 @@
 
 .container_contacto{
     @include margenes;
+    .imagen_contacto{
+        justify-content: center;
     }
+    .formulario_contacto{
+        margin-right: 8%;
+    }
+
+} 
